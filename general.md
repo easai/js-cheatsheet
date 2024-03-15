@@ -15,6 +15,7 @@ fn(...args);
 ```
 Source: [interval-cancellation](https://github.com/easai/interval-cancellation/blob/main/index.js)
 
+Or use apply().
 ```sql
 const fn = (x) => x * 2;
 const args = [4];
