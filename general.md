@@ -6,6 +6,7 @@ JavaScript/TypeScript: General
   - [Apply an array as function arguments](general.md#apply-an-array-as-function-arguments)
   - [Extend a class](general.md#extend-a-class)
   - [Add a method](general.md#add-a-method)
+  - [Custom sort](general.md#custom-sort)
 
 ## Apply an array as function arguments
 
@@ -60,3 +61,15 @@ Array.prototype.last = function () {
 };
 ```
 Source: [array-prototype-last](https://github.com/easai/array-prototype-last/blob/main/index.js)
+
+
+## Custom sort
+
+Define the customized sort function.<br />
+Example:
+
+```js
+    sortedArray=arr.sort((a,b)=>fn(a)-fn(b));
+```
+Source: [sort-by](https://github.com/easai/sort-by/blob/main/index.js)
+
