@@ -5,6 +5,7 @@ JavaScript/TypeScript: General
 
   - [Apply an array as function arguments](general.md#apply-an-array-as-function-arguments)
   - [Extend a class](general.md#extend-a-class)
+  - [Add a method](general.md#add-a-method)
 
 ## Apply an array as function arguments
 
@@ -41,3 +42,21 @@ class ArrayWrapper extends Array {
 }
 ```
 Source: [array-wrapper](https://github.com/easai/array-wrapper/blob/main/script.js)
+
+
+## Add a method
+
+Add a method to an existing class.<br />
+Example:
+
+```js
+Array.prototype.last = function () {
+  var res = -1;
+  var nLen = this.length;
+  if (nLen > 0) {
+    res = this.at(nLen - 1);
+  }
+  return res;
+};
+```
+Source: [array-prototype-last](https://github.com/easai/array-prototype-last/blob/main/index.js)
