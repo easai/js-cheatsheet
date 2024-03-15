@@ -4,7 +4,7 @@ JavaScript/TypeScript Cheetsheet
 ## Contents
 
   - [General](general.md)
-    - [Apply an array as function arguments](general.md#apply-an-array-as-function-arguments)
+    - [Array as arguments](general.md#array-as-arguments)
     - [Extend a class](general.md#extend-a-class)
     - [Add a method](general.md#add-a-method)
     - [Custom sort](general.md#custom-sort)
