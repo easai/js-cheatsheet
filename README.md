@@ -9,5 +9,7 @@ JavaScript/TypeScript Cheetsheet
     - [Add a method](general.md#add-a-method)
     - [Custom sort](general.md#custom-sort)
     - [Process each element](general.md#process-each-element)
+    - [Async and await](general.md#async-and-await)
+
   - [Testing](testing.md)
     - [Detect exceptions](testing.md#detect-exceptions)

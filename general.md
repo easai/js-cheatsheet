@@ -8,6 +8,7 @@ JavaScript/TypeScript: General
   - [Add a method](general.md#add-a-method)
   - [Custom sort](general.md#custom-sort)
   - [Process each element](general.md#process-each-element)
+  - [Async and await](general.md#async-and-await)
 
 ## Array as arguments
 
@@ -88,4 +89,18 @@ Example:
     });
 ```
 Source: [filter-elements-js](https://github.com/easai/filter-elements-js/blob/main/script.js)
+
+
+## Async and await
+
+Waits until the function returns a Promise in an asynchonized function.<br />
+Example:
+
+```js
+async function getWord() {
+  const response = await fetch('https://botudien.pythonanywhere.com/api/rand');
+  const data= await response.json();
+  console.log(data);
+}
+```
 
