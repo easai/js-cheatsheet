@@ -7,6 +7,7 @@ JavaScript/TypeScript: General
   - [Extend a class](general.md#extend-a-class)
   - [Add a method](general.md#add-a-method)
   - [Custom sort](general.md#custom-sort)
+  - [Process each element](general.md#process-each-element)
 
 ## Array as arguments
 
@@ -72,4 +73,19 @@ Example:
     sortedArray=arr.sort((a,b)=>fn(a)-fn(b));
 ```
 Source: [sort-by](https://github.com/easai/sort-by/blob/main/index.js)
+
+
+## Process each element
+
+Process each element of an array.<br />
+Example:
+
+```js
+    arr.forEach((x,i)=>{
+        if(fn(x,i)){
+            newArray.push(x);
+        }
+    });
+```
+Source: [filter-elements-js](https://github.com/easai/filter-elements-js/blob/main/script.js)
 
